@@ -1,9 +1,20 @@
 {
     "name": "sperocoin-jslib",
     "version": "1.0.0",
-    "description": "SperoCoin client",
-    "keywords": ["sperocoin-jslib"],
-    "repository": "git://github.com/DigitalCoin1/SperoCoin-JSLib.git",
+    "description": "SperoCoin Javascript Library",
+    "keywords": [
+        "sperocoin",
+        "sperocoin-jslib",
+        "sperocoin-javascript"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DigitalCoin1/SperoCoin-JSLib.git"
+    },
+    "bugs": {
+        "url": "https://github.com/DigitalCoin1/SperoCoin-JSLib/issues"
+    },
+    "homepage": "https://sperocoin.org",
     "author": "SperoCoin",
     "main": "lib/sperocoin.js",
     "engines": { "node": ">= 0.4.0" },
